@@ -1,0 +1,25 @@
+To check if a string is a palindrome, there are several approaches. Here are some common ones:
+
+1.Reverse the String: Reverse the given string and compare it with the original string. If they are the same, then the string is a palindrome.
+
+Time Complexity: O(n) where n is the length of the string. Reversing the string takes O(n) time.
+Space Complexity: O(n) because we need additional space to store the reversed string.
+
+
+
+2.Two Pointers: Use two pointers, one starting from the beginning of the string and the other starting from the end. Move the pointers towards each other and compare the characters at each position.
+
+Time Complexity: O(n) where n is the length of the string. We only need to iterate through half of the string.
+Space Complexity: O(1) because we are not using any additional space.
+
+
+3.Recursive Approach: Use a recursive approach to check if the string is a palindrome by comparing the first and last characters and recursively checking the remaining substring.
+
+Time Complexity: O(n) where n is the length of the string. Each recursive call reduces the string length by 2.
+Space Complexity: O(n) due to the recursive calls in the call stack.
+
+
+4.Using StringBuilder: Convert the string to a StringBuilder and compare it with its reverse.
+
+Time Complexity: O(n) where n is the length of the string. Reversing the string takes O(n) time.
+Space Complexity: O(n) because we need additional space to store the reversed string.
